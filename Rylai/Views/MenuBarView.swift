@@ -808,12 +808,18 @@ struct InlineSettingsView: View {
                             // About
                             HStack {
                                 Spacer()
-                                VStack(spacing: 4) {
+                                VStack(spacing: 6) {
                                     Text("Rylai v1.0.2")
                                         .font(.system(size: 11, weight: .medium))
                                     Text("macOS Wallpaper App")
                                         .font(.system(size: 10))
                                         .foregroundStyle(.tertiary)
+
+                                    GhostTextButton(title: "JaffryGao", icon: "link", color: .secondary, fontSize: 10) {
+                                        if let url = URL(string: "https://github.com/JaffryGao") {
+                                            NSWorkspace.shared.open(url)
+                                        }
+                                    }
                                 }
                                 Spacer()
                             }

@@ -342,6 +342,17 @@ struct SettingsView: View {
                     .font(.system(size: 12))
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
+
+                    Link(destination: URL(string: "https://github.com/JaffryGao")!) {
+                        HStack(spacing: 4) {
+                            Image(systemName: "link")
+                                .font(.system(size: 10))
+                            Text("github.com/JaffryGao")
+                                .font(.system(size: 11))
+                        }
+                        .foregroundStyle(.secondary.opacity(0.7))
+                    }
+                    .pointerCursor()
                 }
                 .frame(maxWidth: .infinity)
             }

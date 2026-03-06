@@ -17,7 +17,12 @@
 
 ## Screenshots
 
-*Menu bar popover with Liquid Glass design, category grid, favorites, and inline settings.*
+![Desktop Overview](Assets/1.png)
+
+| Main Page | Edit Topics | Settings |
+|:---:|:---:|:---:|
+| ![Main](Assets/2.png) | ![Topics](Assets/3.png) | ![Settings](Assets/4.png) |
+| Wallpaper preview, topic grid, favorites | Select up to 9 topic categories | Auto change, API Key, multi-display |
 
 ## Quick Start
 
